@@ -1,0 +1,16 @@
+.button {
+  background-color: rgb(230, 197, 88);
+  border: none;
+  border-radius: 10px;
+  padding: .2rem 10px;
+  font-size: 1rem;
+  margin-top: 2rem;
+
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:hover {background-color: #ffe079}

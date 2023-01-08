@@ -1,0 +1,60 @@
+.content {
+  background: url('/images/buscar-background.jpg') no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card {
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 390px;
+  background-color: rgb(23, 22, 51);
+  border-radius: 10px;
+
+  overflow: hidden;
+  padding: 4rem .5rem 5rem .5rem;
+
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+
+  opacity: 0.9;
+
+  margin-top: 4rem;
+}
+
+.input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-bottom: -1rem;
+}
+
+
+
+.description {
+  text-align: center;
+
+}
+
+.title {
+  color: rgb(255, 255, 255);
+
+}
+
+.strong {
+  color: rgb(224, 107, 107);
+}
+
+.info {
+  color: rgb(255, 255, 255);
+}
